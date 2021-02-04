@@ -25,4 +25,35 @@ npm run lint
 
 ---
 
-This project was generated with [electron-vue](https://github.com/SimulatedGREG/electron-vue)@[45a3e22](https://github.com/SimulatedGREG/electron-vue/tree/45a3e224e7bb8fc71909021ccfdcfec0f461f634) using [vue-cli](https://github.com/vuejs/vue-cli). Documentation about the original structure can be found [here](https://simulatedgreg.gitbooks.io/electron-vue/content/index.html).
+# 项目安装
+```
+# 安装 vue-cli 和 脚手架样板代码  my-project是项目名称
+npm install -g vue-cli
+vue init simulatedgreg/electron-vue my-project
+# 安装依赖并运行你的程序
+cd my-project
+yarn # 或者 npm install
+yarn run dev # 或者 npm run dev
+```
+# 配置
+```
+vue init webpack YLeMusic
+
+? Project name ylemusic   项目名称
+? Project description music  项目描述
+? Author YLe  作者
+? Vue build standalone
+? Install vue-router? Yes   是否需要路由
+? Use ESLint to lint your code? No  是否需要语法检测
+? Set up unit tests No   是否有test 工程
+? Setup e2e tests with Nightwatch? No   是否有测试环境
+? Should we run `npm install` for you after the project has been created? (recom
+mended) npm
+   vue-cli · Generated "YLeMusic".
+# Installing project dependencies ...
+# ========================
+```
+# 启动
+```
+npm run dev
+```
